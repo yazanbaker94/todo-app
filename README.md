@@ -12,7 +12,9 @@ To Do List Manager Phase 1: Incorporate configuration settings to the applicatio
 
 In this phase, we’ll be adding some top-level settings for the application, so that the user can make some display choices that the app will use by default.
 
+DEPLOYED LINK:
 
+https://csb-eubnf.netlify.app/
 
 
 
