@@ -9,7 +9,7 @@ import jwt from 'jsonwebtoken';
 // 1- create context object
 export const LoginContext = React.createContext();
 
-const API = 'https://jam3ey.herokuapp.com';
+const API = 'https://cube-engineer.herokuapp.com';
 // 2- create a component that will have the provider
  export default function LoginProvider(props) {
     
