@@ -1,5 +1,6 @@
 
 import React, { useContext } from 'react';
+
 import { ListContext } from '../context/list';
 
 
@@ -15,7 +16,7 @@ function Form() {
           <span>To Do Item</span>
           <input
             onChange={handleChange}
-            name="text"
+            name="todo"
             type="text"
             placeholder="Item Details"
           />
@@ -35,11 +36,11 @@ function Form() {
           <span>Difficulty</span>
           <input
             onChange={handleChange}
-            defaultValue={3}
+            defaultValue={5}
             type="range"
             min={1}
-            max={5}
-            name="difficulty"
+            max={10}
+            name="difficultyLevel"
           />
         </label>
 
