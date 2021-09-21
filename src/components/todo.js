@@ -16,7 +16,7 @@ const ToDo = () => {
   useEffect(() => {
     let incompleteCount = listObject.list.filter((item) => !item.complete).length;
     setIncomplete(incompleteCount);
-    document.title = `To Do List: ${incomplete}`;
+    document.title = `To Do Listss: ${incomplete}`;
   }, [listObject.list]);
 
   return (
